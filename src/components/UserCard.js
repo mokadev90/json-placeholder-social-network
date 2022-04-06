@@ -27,8 +27,10 @@ export const UserCard = ({
     <div className="card">
       <div className="card-header">
         <h3 className="card-name">{name}</h3>
-        <h4>{company.name}</h4>
-        <h4>{id}</h4>
+        <div className="card-ci">
+          <h4 className="card-c">{company.name}</h4>
+          <h4>{id}</h4>
+        </div>
       </div>
       <hr className="hr hr-header" />
       <div className="card-body">
